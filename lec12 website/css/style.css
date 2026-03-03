@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+image{
+    max-width: 100%;
+}
+header{
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo img{
+    border-radius: 50%;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav a:hover {
+    color: #007BFF;
+}
+
+.hero{
+    height: 400px;
+    background-image: url("https://placehold.co/1000x400");
+    background-size: cover;
+    background-position: center;
+}
+.hero h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.flex-about{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  
+}
+.flex-about img{
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.flex-about p{
+    width:  60%;
+    padding: 20px;
+    margin-left: 30px;
+}
+.products ul{
+    list-style: none;
+     display: flex;
+     gap:20px;
+     justify-content:center;
+     margin-top: 40px;
+}
+.products ul a{
+    text-decoration: none;
+    color: black;   
+    font-size: 20px;
+}
+.products ul a:hover{
+    color: #007BFF;
+} 
+.products h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.breakfast{
+    width: 20%;
+    background-color: #f4f4f4;
+    margin: 10px;
+
+}   
+.breakfast img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.breakfast button{
+    display: block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px auto;
+}
+.breakfast button:hover{
+    background-color: #0056b3;
+}
+.breakfast p{
+    text-align: center;
+    margin-left: 10px;
+}
+.flex-break{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.bg{
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-radius:5px ;
+}
+.flex-maps{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+    margin: 0 20px;
+}
+.flex-maps input{
+    display: block;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+textarea{
+    display: block;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.flex-contact{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+.description{
+    width: 30%;
+    padding: 20px;
+}
+.description img{
+    border-radius: 5px;
+}
+.flex-contact input{
+    display: block;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+.flex-contact ul{
+    list-style: none;
+    font-size: 20px;
+}
+.flex-contact ul li{
+    margin: 10px 0;
+}
+
+.flex-contact ul a{
+    text-decoration: none;
+    color: black;
+}
+.flex-contact ul a:hover{
+    color: #007BFF;
+}
+
+
+footer{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 30px;
+}
+footer a{
+    color: #007BFF;
+    text-decoration: none;
+}
