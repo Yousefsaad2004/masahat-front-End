@@ -13,3 +13,12 @@ image{
     width: 80%;
     margin: 0 auto;
 }
+.fac {
+color: blue;
+ transition: all 0.3s ease;
+cursor: pointer;
+ }
+
+.fac:hover {
+ color: rgb(2, 2, 150);
+}
